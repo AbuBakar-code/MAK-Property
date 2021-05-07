@@ -142,8 +142,8 @@ p{
 /* LOGIN FORM SECTION */
 
 .login-container{
-    margin-top: 5%;
-    margin-bottom: 5%;
+    background-color:#364547 ;
+    padding: 7% 15%;
 }
 .form-group{
     padding-left: 15%;
@@ -151,13 +151,15 @@ p{
     padding-bottom: 3%;
 }
 .login-form{
-    padding: 5%;
+    padding: 10%;
     background: #364547;
     box-shadow: 0 5px 8px 0 #00000033, 0 9px 26px 0 #00000030;
 }
-.heading{
+.login-form .heading{
     text-align: center;
     color: #fff;
+    padding-bottom: 3%;
+
 }
 
 .btnSubmit
@@ -193,6 +195,7 @@ p{
 }
 .SignUp-form .heading{
     color: #fff;
+    text-align: center;
 }
 
 
